@@ -100,7 +100,7 @@ const User = () => {
                             ) : (console.log('yo'))}
                         </div>
                         <p className="numbers">{item.number}</p>
-                        <p className="chats">{item.chat}</p>
+                        <p className="chats">{item.firstLine}</p>
                         <p className="times">{item.time}</p>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ const User = () => {
                         ) : (console.log('yo'))}
                     </div>
                     <p className="numbers">{item.number}</p>
-                    <p className="chats">{item.chat}</p>
+                    <p className="chats">{item.firstLine}</p>
                     <p className="times">{item.time}</p>
                 </div>
             </div>)

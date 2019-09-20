@@ -46,7 +46,8 @@
     align-items: center;
 }
 .names{
-    font-size: x-large;
+    font-size: larger;
+    font-weight: 500;
 }
 .numbers{
     font-size: 15px;
